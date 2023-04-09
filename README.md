@@ -1,3 +1,8 @@
+---
+highlight: darcula
+theme: smartblue
+---
+
 ## 1. 源码共读前言
 
 >原先在[语雀中](https://www.yuque.com/ruochuan12/notice/p0)，[**语雀专栏有树形菜单，关注后也有通知，体验可能相对比较好，也相对方便查看**](https://www.yuque.com/ruochuan12/notice)，现在同步到掘金专栏[【若川视野 x 源码共读】](https://juejin.cn/column/7078688202092969991)，两边基本会保持同步。
@@ -7,7 +12,7 @@
 
 我倾力组织了每周一起学200行左右的源码共读活动。我写有[《学习源码整体架构系列》](https://juejin.cn/column/6960551178908205093)20余篇，**走过路过的小伙伴可以点击关注下这个目前是掘金关注数最多的专栏**。
 
-**欢迎[点此扫码加我微信 ruochuan12](https://juejin.cn/pin/7005372623400435725 "https://juejin.cn/pin/7005372623400435725") 交流，参与 [源码共读](https://juejin.cn/pin/7005372623400435725 "https://juejin.cn/pin/7005372623400435725") 活动，每周大家一起学习200行左右的源码，共同进步。可以持续关注我[@若川](https://juejin.cn/user/1415826704971918)**。
+**欢迎[点此扫码加我微信 ruochuan02](https://juejin.cn/pin/7217386885793595453) 加源码共读微信群交流讨论，参加每周大家一起学习200行左右的源码活动，共同进步。可以持续关注我[@若川](https://juejin.cn/user/1415826704971918)**。
 
 -   大家没填问卷的，有空抽几分钟来填下源码共读活动问卷~你们的反馈至关重要<https://wj.qq.com/s2/9304505/dafa/>
 
@@ -25,7 +30,7 @@ A: 流程图一览、简单说就是四步：
 
 Q: 我工作年限比较短，能参与活动吗？会比较吃力吗？
 
-A: 可以。23届（目前大三）的小姐姐都写了7次笔记。一般推荐先读[第36期 剔除对象中的属性](https://juejin.cn/post/7118782469360320542)，相对不难，有问题可以交流讨论。
+A: 可以。23届（目前大三）的小姐姐都写了7次笔记。一般推荐先读[第39期 | 如何发布一个 npm 库，自动化管理版本号、生成 changelog、tag 等](https://juejin.cn/post/7145871172293361678)，几乎人人都用得上，都不算源码，有问题可以交流讨论。
 
 Q: **我目前不会vue、不会vue3、不会react、不会Node.js 可以参与吗？**
 
@@ -46,7 +51,7 @@ A: 目前不收费。目前没有惩罚，后续可能要求**每人进群后半
 ## 3. 如何提交笔记
 
 [提交笔记方式](https://juejin.cn/post/7079706017579139102#heading-1)
-简言之：看任务，看辅助文章、看源码，交流讨论，在掘金写笔记，写好后提交到本文评论区。
+简言之：看任务，看辅助文章、看源码，交流讨论，在掘金写笔记，写好后提交到每期任务的评论区。
 
 为了给大家谋福利，另外给大家的文章带来更多阅读量，便于搜索，从2022年3月27日起，笔记可以直接发布在掘金，以《标题自取》标题不限，可以取个好标题，容易被掘金推荐。
 
@@ -69,66 +74,74 @@ A: 目前不收费。目前没有惩罚，后续可能要求**每人进群后半
 
 为了降低难度，促进大家学习。我们**从易到难**重新整理学习顺序。
 
-**推荐大家按顺序循序渐进或者自己挑选感兴趣的学习，查漏补缺，夯实基础。** 提高阅读源码的能力，提升前端技术能力。**不知道怎么调试的看这篇文章**：[新手向：前端程序员必学基本技能——调试JS代码](https://juejin.cn/post/7030584939020042254)
+**推荐大家按顺序循序渐进或者自己挑选感兴趣的学习，查漏补缺，夯实基础。** 提高阅读源码的能力，提升前端技术能力。**不知道怎么调试的看这两篇文章(基本覆盖绝大多数场景)**：[新手向：前端程序员必学基本技能——调试JS代码](https://juejin.cn/post/7030584939020042254)、[据说90%的人不知道测试用例(Vitest)可以调试开源项目(Vue3) 源码](https://juejin.cn/post/7212263304394981432)
 
 ### 4.1 原生JS
 
+1. [第39期 | 如何发布一个 npm 库，自动化管理版本号、生成 changelog、tag 等](https://juejin.cn/post/7145871172293361678)
 1.  [第36期 | omit.js 剔除对象中的属性](https://juejin.cn/post/7118782469360320542)  **应该是历史上最简单的一期**
 1.  [第33期 | arrify 转数组](https://juejin.cn/post/7100218384918249503)  **应该是历史上第二简单的一期**
 1. 第24期 【vue2 工具函数】[初学者也能看懂的 Vue2 源码中那些实用的基础工具函数](https://juejin.cn/post/7079765637437849614)
-1. 第32期【队列链表】[队列链表 67行](https://juejin.cn/post/7090769807804956679)
 1.  第23期【vue-this】[为什么 Vue2 this 能够直接获取到 data 和 methods，源码揭秘](https://juejin.cn/post/7082984422516981796)
 1.  第19期 【axios/utils】[axios 源码中10多个工具函数](https://juejin.cn/post/7083113675879350309)
 1.  第2期【vue3 工具函数】: [初学者也能看懂的 Vue3 源码中那些实用的基础工具函数](https://juejin.cn/post/7084991376630218759)
+1. 第32期【队列链表】[队列链表 67行](https://juejin.cn/post/7090769807804956679)
 
-### 4.2 面试常考
+### 4.2 React
+
+1. 第43期【react-use】[自从学了 react-use 源码，我写自定义 React Hooks 越来越顺了~](https://juejin.cn/post/7218915344130621495)
+
+### 4.3 面试常考
 
 1.  第21期【await-to-js】[await-to-js](https://juejin.cn/post/7083109687591338021)
 1.  第14期【promisify】: [从22行有趣的源码库中，我学到了 callback promisify 化的 Node.js 源码实现](https://juejin.cn/post/7083151186137251876)
-1.  第25期【underscore-debounce】[跟着underscore学防抖](https://juejin.cn/post/7087440559408676895)
+1.  第25期【underscore-debounce】[跟着 underscore 学防抖](https://juejin.cn/post/7087440559408676895)
 1.  第8期【mitt、tiny-emitter】: [发布订阅](https://juejin.cn/post/7084984303943155719)
 1.  第31期【p-limit】[第31期 | p-limit 限制并发数](https://juejin.cn/post/7087592414814142472)
 1.  第5期【koa-compose】：[50行代码串行Promise，koa洋葱模型原来是这么实现？](https://juejin.cn/post/7084987872201146375)
 
-### 4.3 脚手架 && 组件库
+### 4.4 脚手架 && 组件库
 1. 第38期 【vant-weapp stepper 组件】 [第38期 | 经常用 vant-weapp 开发小程序，却不知道如何开发一个组件？学！](https://juejin.cn/post/7134726338862120967)
-1. 第37期【create-vite】[第37期 | vite 3.0 都发布了，这次来手撕 create-vite 源码](https://juejin.cn/post/7129087028947320862)
-1.  第3期【vue-next-release】: [Vue 3.2 发布了，那尤雨溪是怎么发布 Vue.js 的？](https://juejin.cn/post/7084989934699806751)
-1.  第15期【element-new】: [每次新增页面复制粘贴？100多行源码的 element-ui 新增组件功能告诉你减少重复工作](https://juejin.cn/post/7083150257365712927)
-1.  第9期【create-vue】: [Vue 团队公开快如闪电的全新脚手架工具 create-vue，未来将替代 Vue-CLI，才300余行代码，学它！](https://juejin.cn/post/7084979330496856100)
-1.  第34期 【tdesign-vue-next】[第34期 | tdesign-vue-next 初始化组件](https://juejin.cn/post/7109106285370408967)
-1. 第35期【vite-pretty-lint】[第35期 | 为 vite 项目自动添加 eslint 和 prettier](https://juejin.cn/post/7113563466211786783 "【若川视野 x 源码共读】第35期 | 为 vite 项目自动添加 eslint 和 prettier")
-1.  第30期 【@tarojs/plugin-mini-ci 小程序上传代码 ci】 [@tarojs/plugin-mini-ci 小程序上传代码 ci](https://juejin.cn/post/7082662027143053342)
-1.  第28期 | [vue react 小程序 message 组件](https://juejin.cn/post/7079713797035786253)
+2. 第41期 【vant dark-theme】[vant 4 正式发布了，支持暗黑主题，那么是如何实现的呢](https://juejin.cn/post/7186312314872660029)
+2. 第42期 【vant loading】[跟着 vant4 源码学习如何用 vue3+ts 开发一个 loading 组件，仅88行代码](https://juejin.cn/post/7206723874506850360)
+3. 第37期【create-vite】[第37期 | vite 3.0 都发布了，这次来手撕 create-vite 源码](https://juejin.cn/post/7129087028947320862)
+4.  第3期【vue-next-release】: [Vue 3.2 发布了，那尤雨溪是怎么发布 Vue.js 的？](https://juejin.cn/post/7084989934699806751)
+5.  第15期【element-new】: [每次新增页面复制粘贴？100多行源码的 element-ui 新增组件功能告诉你减少重复工作](https://juejin.cn/post/7083150257365712927)
+6.  第9期【create-vue】: [Vue 团队公开快如闪电的全新脚手架工具 create-vue，未来将替代 Vue-CLI，才300余行代码，学它！](https://juejin.cn/post/7084979330496856100)
+7.  第34期 【tdesign-vue-next】[第34期 | tdesign-vue-next 初始化组件](https://juejin.cn/post/7109106285370408967)
+8. 第35期【vite-pretty-lint】[第35期 | 为 vite 项目自动添加 eslint 和 prettier](https://juejin.cn/post/7113563466211786783 "【若川视野 x 源码共读】第35期 | 为 vite 项目自动添加 eslint 和 prettier")
+9.  第30期 【@tarojs/plugin-mini-ci 小程序上传代码 ci】 [@tarojs/plugin-mini-ci 小程序上传代码 ci](https://juejin.cn/post/7082662027143053342)
+10.  第28期 | [vue react 小程序 message 组件](https://juejin.cn/post/7079713797035786253)
 
 
-### 4.4 工具库
+### 4.5 工具库
 
 1. 第26期 [classnames](https://juejin.cn/post/7087439740416294942)
 1. 第17期 【js-cookie】[js-cookie](https://juejin.cn/post/7083148613324374052)
 
-### 4.5 Nodejs
+### 4.6 Nodejs
 
 1.  第16期【only-allow】: [从 vue3 和 vite 源码中，我学到了一行代码统一规范团队包管理器的神器](https://juejin.cn/post/7083149201869111304)
 1.  第22期【dotenv】[面试官：项目中常用的 .env 文件原理是什么？如何实现？](https://juejin.cn/post/7083109340030337032)
 8.  第20期【install-pkg】:[Vue团队核心成员开发的39行小工具 install-pkg 安装包，值得一学！](https://juejin.cn/post/7083111940662231076)
 8.  第13期【open】: [每次启动项目的服务时，电脑竟然乖乖的帮我打开了浏览器，100行源码揭秘！](https://juejin.cn/post/7083151534124433416)
 8.  第1期【vue-devtools】: [据说 99% 的人不知道 vue-devtools 还能直接打开对应组件文件？本文原理揭秘](https://juejin.cn/post/7084992464221634591)
-8.  第18期【delay】[面试官：请手写一个带取消功能的延迟函数，axios 取消功能的原理是什么](https://juejin.cn/post/7083114215031963655)
-8.  第12期【@antfu/ni】: [尤雨溪推荐神器 ni ，能替代 npm/yarn/pnpm ？简单好用！源码揭秘！](https://juejin.cn/post/7083152323681189902)
-9.  第27期 【read-pkg】[从 vue-cli 源码中，我发现27行读取 json 文件有趣的 npm 包](https://juejin.cn/post/7087438931955810335)
-1.  第7期【validate-npm-package-name】: [validate-npm-package-name](https://juejin.cn/post/7084985308839673886)
-8.  第10期【configstore】: [configstore](https://juejin.cn/post/7084978617448398855)
-12. 第29期 【quick-lru】[quick-lru](https://juejin.cn/post/7079754899403046942)
-8.  第4期【co】:[co](https://juejin.cn/post/7084988705949253639)
-8.  第6期【update-notifier】: [update-notifier](https://juejin.cn/post/7084985851347730446)
+10.  第18期【delay】[面试官：请手写一个带取消功能的延迟函数，axios 取消功能的原理是什么](https://juejin.cn/post/7083114215031963655)
+11.  第12期【@antfu/ni】: [尤雨溪推荐神器 ni ，能替代 npm/yarn/pnpm ？简单好用！源码揭秘！](https://juejin.cn/post/7083151940367941639)
+12.  第27期 【read-pkg】[从 vue-cli 源码中，我发现27行读取 json 文件有趣的 npm 包](https://juejin.cn/post/7087438931955810335)
+13.  第7期【validate-npm-package-name】: [validate-npm-package-name](https://juejin.cn/post/7084985308839673886)
+14.  第10期【configstore】: [configstore](https://juejin.cn/post/7084978617448398855)
+15. 第29期 【quick-lru】[quick-lru](https://juejin.cn/post/7079754899403046942)
+16.  第4期【co】:[co](https://juejin.cn/post/7084988705949253639)
+17.  第6期【update-notifier】: [update-notifier](https://juejin.cn/post/7084985851347730446)
 
 
-### 4.6 vite
+### 4.7 vite
 
 1.  第11期【vue-dev-server】: [尤雨溪几年前开发的“玩具 vite”，才100多行代码，却十分有助于理解 vite 原理](https://juejin.cn/post/7083152323681189902)
+2.  第40期【vite .env】[vite 是如何解析用户配置的 .env 的](https://juejin.cn/post/7174045668187570206)
 
-### 4.7 我的其他源码
+### 4.8 我的其他源码
 
 **如果不满足以上这些代码行数比较少的源码，可以选我之前写过感兴趣的源码文章看。这些代码行数相对多一些。**
 
