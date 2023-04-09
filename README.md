@@ -1,8 +1,3 @@
----
-highlight: darcula
-theme: smartblue
----
-
 ## 1. 源码共读前言
 
 >原先在[语雀中](https://www.yuque.com/ruochuan12/notice/p0)，[**语雀专栏有树形菜单，关注后也有通知，体验可能相对比较好，也相对方便查看**](https://www.yuque.com/ruochuan12/notice)，现在同步到掘金专栏[【若川视野 x 源码共读】](https://juejin.cn/column/7078688202092969991)，两边基本会保持同步。
