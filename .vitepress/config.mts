@@ -15,10 +15,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '公告',
         items: [
-          // { text: 'Markdown Examples', link: '/markdown-examples' },
-          // { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: '第1期 | vue-devtools', link: '/notice/p1' },
+          { text: '第2期 | vue3 工具函数', link: '/notice/p2' },
+          { text: '第3期 | vue 3.2 是怎么发布的 vue-release', link: '/notice/p3' },
         ],
       },
     ],
