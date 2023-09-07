@@ -2,18 +2,25 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-cn',
   base: "/read-source-code/",
   title: '若川视野 x 源码共读',
   description: 'A VitePress Site',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/README' },
+      { text: '主页', link: '/index' },
       // { text: 'README', link: '/README' },
       // { text: 'Examples', link: '/markdown-examples' },
     ],
 
     sidebar: [
+      {
+        text: '总则',
+        items: [
+          { text: '共读规则', link: '/index' },
+        ],
+      },
       {
         text: '公告',
         items: [
@@ -25,7 +32,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/vuejs/ruochuan-f2e/read-source-code' },
     ],
   },
 });
