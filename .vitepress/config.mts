@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/read-source-code/",
   title: '若川视野 x 源码共读',
   description: 'A VitePress Site',
   themeConfig: {
