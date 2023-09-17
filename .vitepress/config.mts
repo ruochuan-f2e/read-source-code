@@ -45,6 +45,10 @@ export default defineConfig({
         text: '公告',
         items: [
           {
+            text: '第47期 | vant4.0 正式发布了，分析其源码学会用 vue3 写一个图片懒加载组件！',
+            link: '/notice/p47',
+          },
+          {
             text: '第46期 _ 分析 vant4 源码，学会用 vue3 + ts 开发毫秒级渲染的倒计时组件，真是妙啊',
             link: '/notice/p46',
           },
