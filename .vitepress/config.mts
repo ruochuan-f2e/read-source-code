@@ -44,6 +44,14 @@ export default defineConfig({
       {
         text: '公告',
         items: [
+          // {
+          //   text: '第47期 | vant4.0 正式发布了，分析其源码学会用 vue3 写一个图片懒加载组件！',
+          //   link: '/notice/p49',
+          // },
+          {
+            text: '第48期 | axios 是如何打包发布的，如何开发工具库',
+            link: '/notice/p48',
+          },
           {
             text: '第47期 | vant4.0 正式发布了，分析其源码学会用 vue3 写一个图片懒加载组件！',
             link: '/notice/p47',
