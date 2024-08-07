@@ -37,7 +37,7 @@ jobs:
           version: 9
           run_install: |
             - recursive: true
-            args: [--frozen-lockfile]
+              args: [--frozen-lockfile]
 
       # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
       - name: Setup Node
