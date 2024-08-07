@@ -44,10 +44,38 @@ export default defineConfig({
       {
         text: '公告',
         items: [
-          // {
-          //   text: '第47期 | vant4.0 正式发布了，分析其源码学会用 vue3 写一个图片懒加载组件！',
-          //   link: '/notice/p49',
-          // },
+          {
+            text: '第56期 | 开发小程序又一新选择 vue-mini，据说性能是 Taro 的 10 倍，遥遥领先',
+            link: '/notice/p56',
+          },
+          {
+            text: '第55期 | Taro 源码揭秘 3. taro init',
+            link: '/notice/p55',
+          },
+          {
+            text: '第54期 | Taro 源码揭秘 2. 插件机制',
+            link: '/notice/p54',
+          },
+          {
+            text: '第53期 | Taro 源码揭秘 1. taro init 初始化项目',
+            link: '/notice/p53',
+          },
+          {
+            text: '第52期 | 分析 vant4 组件库源码，写一个 Vue3 highlight 高亮文本的组件',
+            link: '/notice/p52',
+          },
+          {
+            text: '第51期 | fileSaver 考虑周到的下载文件库',
+            link: '/notice/p51',
+          },
+          {
+            text: '第50期 | 剖析 localForage 源码，学习本地存储库原理',
+            link: '/notice/p50',
+          },
+          {
+            text: '第49期 | 剖析 hotkeys-js 源码，学会快捷键实现原理',
+            link: '/notice/p49',
+          },
           {
             text: '第48期 | axios 是如何打包发布的，如何开发工具库',
             link: '/notice/p48',
