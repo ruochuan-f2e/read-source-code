@@ -2,3 +2,4 @@
 .vitepress/cache
 node_modules
 .DS_Store
+doc_build
