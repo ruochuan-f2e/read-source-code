@@ -7,6 +7,7 @@ import { pluginFontOpenSans } from 'rspress-plugin-font-open-sans';
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
   //   root: 'docs',
+  base: 'read-source-code',
   title: '若川的博客',
   lang: 'zh',
   keywords:

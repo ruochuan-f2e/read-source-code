@@ -12,9 +12,9 @@
     "preinstall": "npx only-allow pnpm",
     "copy": "echo copy",
     "copy1": "node ./scripts/copyIndex.js",
-		"dev": "pnpm run copy && rspress dev",
-		"build": "pnpm run copy && rspress build",
-		"preview": "pnpm run copy && rspress preview"
+    "dev": "pnpm run copy && rspress dev",
+    "build": "pnpm run copy && rspress build",
+    "preview": "pnpm run copy && rspress preview"
   },
   "repository": {
     "type": "git",
@@ -27,15 +27,15 @@
   },
   "homepage": "https://github.com/ruochuan-f2e/read-source-code#readme",
   "dependencies": {
-		"rspress": "^1.31.0"
-	},
+    "rspress": "^1.42.0"
+  },
   "devDependencies": {
     "git-cz": "^4.9.0",
-    "vitepress": "^1.3.2",
-    "globby": "^14.0.2",
-		"release-it": "^17.6.0",
-		"rsbuild-plugin-google-analytics": "^1.0.2",
-		"rspress-plugin-font-open-sans": "^1.0.0",
-		"rspress-plugin-reading-time": "^0.3.0"
+    "globby": "^14.1.0",
+    "release-it": "^17.11.0",
+    "rsbuild-plugin-google-analytics": "^1.0.3",
+    "rspress-plugin-font-open-sans": "^1.0.0",
+    "rspress-plugin-reading-time": "^0.3.0",
+    "vitepress": "^1.6.3"
   }
 }
